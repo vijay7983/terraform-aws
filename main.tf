@@ -17,7 +17,7 @@ resource "aws_s3_bucket" "terraform_practice" {
 
   tags = {
     Name        = "Terraform Practice"
-    Environment = "Learning"
+    Environment = "aws-tf"
   }
 }
 
